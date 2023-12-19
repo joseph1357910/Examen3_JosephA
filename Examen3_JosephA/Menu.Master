@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="Examen3_JosephA.Menu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="Menu.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul>
+                <li><a class="active" href="Inicio.aspx">Inicio</a></li>
+                <li><a href="Encuesta.aspx">Encuesta</a></li>
+                <li><a href="Reporte.aspx">Reporte</a></li>
+                
+            </ul>
+
+
+
+        </div>
+        <img src="Imagen/230731-Aca2-des-f1-Reivindicar-el-dialogo-y-la-politica.jpg" />
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
